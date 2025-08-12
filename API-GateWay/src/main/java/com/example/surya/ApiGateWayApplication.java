@@ -1,14 +1,13 @@
-package com.wipro.rk.quizappmonorepo;
+package com.example.surya;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-
-public class QuestionsServiceApplication {
+public class ApiGateWayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuestionsServiceApplication.class, args);
+		SpringApplication.run(ApiGateWayApplication.class, args);
 	}
 
 }

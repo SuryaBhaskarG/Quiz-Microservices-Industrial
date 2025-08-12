@@ -10,13 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.wipro.rk.quizappmonorepo.entities.Question;
 import com.wipro.rk.quizappmonorepo.entities.QuestionWrapper;
+import com.wipro.rk.quizappmonorepo.entities.Response;
 import com.wipro.rk.quizappmonorepo.enums.Category;
-import com.wipro.rk.quizappmonorepo.enums.DifficultyLevel;
 import com.wipro.rk.quizappmonorepo.service.QuestionService;
-
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -37,6 +35,7 @@ public class QuestionController {
         return  questionService.addQuestion(question);
     }
 	
+    // java.easy,3
 
     @GetMapping("/generateQuestionsForQuiz")
     public List<Integer> getQuestionsForQuiz(@RequestParam String category,@RequestParam String  difficultyLevel)
@@ -44,15 +43,47 @@ public class QuestionController {
     	return  questionService.getQuestionsForQuiz(category,difficultyLevel);
     }
     
-    
-    
-    
-  
- /*  @PostMapping("/getQuestion")
- public List<QuestionWrapper> returnQuestionWrappersByListOfIds(@RequestBody List<Integer> questionIds)
+    @PostMapping("/getQuestions")
+    public List<QuestionWrapper> getQuestionforQuizbyQuizID(@RequestBody List<Integer> questionIds)
     {
-    	return  questionService.getMeQuestionWrappersBasedOnIDS(questionIds);
+    	return  questionService.getQuestionforQuizbyQuizIDService(questionIds);
     }
-   */ 
     
+    
+    @PostMapping("/getScore")
+    public Integer getScore(@RequestBody List<Response> responses )
+    {
+		return questionService.calculateUserScore(responses);
+    	
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   /* 
+    
+    @PostMapping("/getQuestions")
+    public List<QuestionWrapper> getQuestionsFromId(@RequestBody List<Integer> questionIds){
+        return questionService.getQuestionsFromId(questionIds);
+    }
+	
+    
+    @PostMapping("/getScore")
+    public Integer getScoreforQuiz(@RequestBody List<Response> responses)
+    {
+        return questionService.getScoreforQuiz(responses);
+    }
+  
+    */
 }
