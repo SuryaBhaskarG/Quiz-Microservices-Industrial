@@ -34,8 +34,11 @@ public class QuestionController {
     public Question addQuestion(@RequestBody Question question){
         return  questionService.addQuestion(question);
     }
+<<<<<<< HEAD
 	
     // java.easy,3
+=======
+>>>>>>> b70c11e (msg)
 
     @GetMapping("/generateQuestionsForQuiz")
     public List<Integer> getQuestionsForQuiz(@RequestParam String category,@RequestParam String  difficultyLevel)
@@ -57,6 +60,7 @@ public class QuestionController {
     	
     }
     
+<<<<<<< HEAD
     
     
     
@@ -86,4 +90,6 @@ public class QuestionController {
     }
   
     */
+=======
+>>>>>>> b70c11e (msg)
 }

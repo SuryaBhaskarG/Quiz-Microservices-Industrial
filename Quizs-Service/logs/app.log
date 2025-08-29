@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-08-10T17:09:14.214+05:30  INFO 13584 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : Starting QuizsServiceApplication using Java 21.0.7 with PID 13584 (E:\Java Learning\Microservices\Quizs-Service\target\classes started by surya in E:\Java Learning\Microservices\Quizs-Service)
 2025-08-10T17:09:14.220+05:30  INFO 13584 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : No active profile set, falling back to 1 default profile: "default"
 2025-08-10T17:09:14.310+05:30  INFO 13584 --- [QUIZ-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -19,6 +20,31 @@
 2025-08-10T17:09:21.781+05:30  INFO 13584 --- [QUIZ-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2025-08-10T17:09:21.905+05:30  WARN 13584 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2025-08-10T17:09:22.125+05:30  INFO 13584 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+=======
+2025-08-29T09:22:30.538+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] c.w.rk.quizapp.QuizsServiceApplication   : Starting QuizsServiceApplication using Java 21.0.7 with PID 25044 (C:\Users\asus\Desktop\Quiz-Microservices-Industrial-main\Quiz-Microservices-Industrial-main\Quizs-Service\target\classes started by asus in C:\Users\asus\Desktop\Quiz-Microservices-Industrial-main\Quiz-Microservices-Industrial-main\Quizs-Service)
+2025-08-29T09:22:30.544+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] c.w.rk.quizapp.QuizsServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-29T09:22:30.593+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:9092
+2025-08-29T09:22:30.593+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=QUIZ-SERVICE, profiles=[default], label=null, version=14dadc3e11ddbe0225635e5e5bfece5c2269a127, state=
+2025-08-29T09:22:30.596+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-29T09:22:30.596+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-29T09:22:31.781+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-29T09:22:31.932+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 1 JPA repository interface.
+2025-08-29T09:22:32.380+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cd45b2ec-8949-3e75-8b08-aa6697b1a8a6
+2025-08-29T09:22:33.079+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-08-29T09:22:33.091+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-29T09:22:33.092+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-29T09:22:33.138+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-29T09:22:33.139+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2542 ms
+2025-08-29T09:22:33.837+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-29T09:22:33.881+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-29T09:22:33.910+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-29T09:22:34.148+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-29T09:22:34.178+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-29T09:22:34.431+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@419824a8
+2025-08-29T09:22:34.433+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-29T09:22:34.488+05:30  WARN 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-29T09:22:34.505+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+>>>>>>> b70c11e (msg)
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.43
@@ -26,6 +52,7 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
+<<<<<<< HEAD
 2025-08-10T17:09:24.266+05:30  INFO 13584 --- [QUIZ-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2025-08-10T17:09:24.458+05:30  INFO 13584 --- [QUIZ-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-08-10T17:09:25.308+05:30  WARN 13584 --- [QUIZ-SERVICE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
@@ -3334,6 +3361,110 @@ Caused by: java.net.URISyntaxException: Illegal character in path at index 34: h
 2025-08-10T23:19:43.089+05:30  INFO 2824 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2025-08-10T23:19:43.135+05:30  WARN 2824 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2025-08-10T23:19:43.153+05:30  INFO 2824 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+=======
+2025-08-29T09:22:35.291+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-29T09:22:35.352+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T09:22:35.690+05:30  WARN 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-29T09:22:35.808+05:30  WARN 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-29T09:22:35.870+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.c.openfeign.FeignClientFactoryBean   : For 'QUESTION-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2025-08-29T09:22:37.496+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-29T09:22:37.563+05:30  WARN 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-29T09:22:37.593+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-29T09:22:37.701+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-29T09:22:37.725+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-29T09:22:37.729+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T09:22:37.737+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-29T09:22:37.737+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-29T09:22:37.737+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-29T09:22:37.737+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-29T09:22:37.737+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-29T09:22:37.738+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-29T09:22:37.738+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-29T09:22:37.973+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-29T09:22:37.974+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-29T09:22:37.977+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-29T09:22:37.978+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1756439557978 with initial instances count: 4
+2025-08-29T09:22:37.992+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application QUIZ-SERVICE with eureka with status UP
+2025-08-29T09:22:37.994+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1756439557994, current=UP, previous=STARTING]
+2025-08-29T09:22:37.996+05:30  INFO 25044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085: registering service...
+2025-08-29T09:22:38.010+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-08-29T09:22:38.011+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-08-29T09:22:38.031+05:30  INFO 25044 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] c.w.rk.quizapp.QuizsServiceApplication   : Started QuizsServiceApplication in 9.125 seconds (process running for 9.997)
+2025-08-29T09:22:38.037+05:30  INFO 25044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085 - registration status: 204
+2025-08-29T09:22:39.012+05:30  WARN 25044 --- [QUIZ-SERVICE] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-08-29T09:22:39.013+05:30  WARN 25044 --- [QUIZ-SERVICE] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 1 spans due to ConnectException()
+
+java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:na]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:60) ~[spring-boot-actuator-autoconfigure-3.5.4.jar:3.5.4]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-actuator-autoconfigure-3.5.4.jar:3.5.4]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-actuator-autoconfigure-3.5.4.jar:3.5.4]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2025-08-29T09:27:37.744+05:30  INFO 25044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T09:32:37.758+05:30  INFO 25044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T09:34:25.345+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-29T09:34:25.347+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2025-08-29T09:34:25.347+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1756440265347, current=DOWN, previous=UP]
+2025-08-29T09:34:25.348+05:30  INFO 25044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085: registering service...
+2025-08-29T09:34:25.350+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-29T09:34:25.354+05:30  INFO 25044 --- [QUIZ-SERVICE] [tomcat-shutdown] [                                                 ] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-29T09:34:25.361+05:30  INFO 25044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085 - registration status: 204
+2025-08-29T09:34:25.364+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T09:34:25.368+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-29T09:34:25.377+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-29T09:34:25.853+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-08-29T09:34:28.861+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-08-29T09:34:28.888+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085 - deregister  status: 200
+2025-08-29T09:34:28.888+05:30  INFO 25044 --- [QUIZ-SERVICE] [RMI TCP Connection(21)-127.0.0.1] [                                                 ] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-08-29T09:35:32.923+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : Starting QuizsServiceApplication using Java 21.0.7 with PID 3044 (C:\Users\asus\Desktop\Quiz-Microservices-Industrial-main\Quiz-Microservices-Industrial-main\Quizs-Service\target\classes started by asus in C:\Users\asus\Desktop\Quiz-Microservices-Industrial-main\Quiz-Microservices-Industrial-main\Quizs-Service)
+2025-08-29T09:35:32.926+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-29T09:35:32.973+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:9092
+2025-08-29T09:35:32.974+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=QUIZ-SERVICE, profiles=[default], label=null, version=14dadc3e11ddbe0225635e5e5bfece5c2269a127, state=
+2025-08-29T09:35:32.976+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-29T09:35:32.976+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-29T09:35:34.158+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-29T09:35:34.273+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2025-08-29T09:35:34.599+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=13dadc4d-7d94-3ef0-88ef-aa8b4c56738a
+2025-08-29T09:35:35.324+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-08-29T09:35:35.337+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-29T09:35:35.337+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-29T09:35:35.391+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-29T09:35:35.392+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2416 ms
+2025-08-29T09:35:35.845+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-29T09:35:35.890+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-29T09:35:35.924+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-29T09:35:36.172+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-29T09:35:36.200+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-29T09:35:36.493+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49f68207
+2025-08-29T09:35:36.496+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-29T09:35:36.559+05:30  WARN 3044 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-29T09:35:36.575+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+>>>>>>> b70c11e (msg)
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.43
@@ -3341,6 +3472,7 @@ Caused by: java.net.URISyntaxException: Illegal character in path at index 34: h
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
+<<<<<<< HEAD
 2025-08-10T23:19:43.912+05:30  INFO 2824 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2025-08-10T23:19:43.978+05:30  INFO 2824 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-08-10T23:19:44.336+05:30  WARN 2824 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
@@ -3412,6 +3544,84 @@ Caused by: java.net.URISyntaxException: Illegal character in path at index 34: h
 2025-08-10T23:25:13.257+05:30  INFO 9764 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2025-08-10T23:25:13.297+05:30  WARN 9764 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2025-08-10T23:25:13.313+05:30  INFO 9764 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+=======
+2025-08-29T09:35:37.284+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-29T09:35:37.342+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T09:35:37.677+05:30  WARN 3044 --- [QUIZ-SERVICE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-29T09:35:37.793+05:30  WARN 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-29T09:35:37.856+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'QUESTION-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2025-08-29T09:35:39.458+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-29T09:35:39.523+05:30  WARN 3044 --- [QUIZ-SERVICE] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-29T09:35:39.551+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-29T09:35:39.651+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-29T09:35:39.676+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-29T09:35:39.679+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T09:35:39.687+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-29T09:35:39.687+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-29T09:35:39.687+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-29T09:35:39.687+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-29T09:35:39.687+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-29T09:35:39.687+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-29T09:35:39.687+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-29T09:35:39.924+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-29T09:35:39.926+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-29T09:35:39.928+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-29T09:35:39.929+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1756440339929 with initial instances count: 4
+2025-08-29T09:35:39.942+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application QUIZ-SERVICE with eureka with status UP
+2025-08-29T09:35:39.943+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1756440339943, current=UP, previous=STARTING]
+2025-08-29T09:35:39.945+05:30  INFO 3044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085: registering service...
+2025-08-29T09:35:39.966+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-08-29T09:35:39.967+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-08-29T09:35:39.985+05:30  INFO 3044 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : Started QuizsServiceApplication in 8.748 seconds (process running for 9.594)
+2025-08-29T09:35:39.988+05:30  INFO 3044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085 - registration status: 204
+2025-08-29T09:40:39.689+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T09:45:39.692+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T09:50:39.693+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T09:55:39.697+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:00:39.699+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:05:39.712+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:10:39.714+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:15:39.727+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:20:39.741+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:25:39.747+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:30:39.757+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:35:39.762+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:40:39.768+05:30  INFO 3044 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:41:11.737+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-29T10:41:11.747+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2025-08-29T10:41:11.747+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1756444271747, current=DOWN, previous=UP]
+2025-08-29T10:41:11.747+05:30  INFO 3044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085: registering service...
+2025-08-29T10:41:11.771+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-29T10:41:11.776+05:30  INFO 3044 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085 - registration status: 204
+2025-08-29T10:41:11.779+05:30  INFO 3044 --- [QUIZ-SERVICE] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-29T10:41:11.795+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T10:41:11.809+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-29T10:41:11.813+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-29T10:41:11.816+05:30  INFO 3044 --- [QUIZ-SERVICE] [RMI TCP Connection(75)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-08-29T10:53:00.852+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : Starting QuizsServiceApplication using Java 21.0.7 with PID 23244 (C:\Users\asus\Desktop\Quiz-Microservices-Industrial-main\Quiz-Microservices-Industrial-main\Quizs-Service\target\classes started by asus in C:\Users\asus\Desktop\Quiz-Microservices-Industrial-main\Quiz-Microservices-Industrial-main\Quizs-Service)
+2025-08-29T10:53:00.855+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-29T10:53:00.916+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:9092
+2025-08-29T10:53:00.916+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=QUIZ-SERVICE, profiles=[default], label=null, version=14dadc3e11ddbe0225635e5e5bfece5c2269a127, state=
+2025-08-29T10:53:00.920+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-29T10:53:00.920+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-29T10:53:03.062+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-29T10:53:03.270+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 192 ms. Found 1 JPA repository interface.
+2025-08-29T10:53:03.742+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=13dadc4d-7d94-3ef0-88ef-aa8b4c56738a
+2025-08-29T10:53:04.697+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-08-29T10:53:04.711+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-29T10:53:04.711+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-29T10:53:04.775+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-29T10:53:04.776+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3855 ms
+2025-08-29T10:53:05.295+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-29T10:53:05.374+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-29T10:53:05.441+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-29T10:53:05.702+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-29T10:53:05.733+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-29T10:53:06.036+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49fd736d
+2025-08-29T10:53:06.037+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-29T10:53:06.086+05:30  WARN 23244 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-29T10:53:06.103+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+>>>>>>> b70c11e (msg)
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.43
@@ -3419,6 +3629,7 @@ Caused by: java.net.URISyntaxException: Illegal character in path at index 34: h
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
+<<<<<<< HEAD
 2025-08-10T23:25:13.995+05:30  INFO 9764 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2025-08-10T23:25:14.051+05:30  INFO 9764 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-08-10T23:25:14.404+05:30  WARN 9764 --- [QUIZ-SERVICE] [restartedMain] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
@@ -4663,3 +4874,121 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
 2025-08-10T23:43:29.621+05:30  INFO 9764 --- [QUIZ-SERVICE] [RMI TCP Connection(30)-127.0.0.1] [                                                 ] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+=======
+2025-08-29T10:53:06.912+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-29T10:53:06.978+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T10:53:07.335+05:30  WARN 23244 --- [QUIZ-SERVICE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-29T10:53:07.454+05:30  WARN 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-29T10:53:07.527+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'QUESTION-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2025-08-29T10:53:09.229+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-29T10:53:09.297+05:30  WARN 23244 --- [QUIZ-SERVICE] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-29T10:53:09.323+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-29T10:53:09.423+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-29T10:53:09.446+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-29T10:53:09.454+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T10:53:09.462+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-29T10:53:09.462+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-29T10:53:09.463+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-29T10:53:09.463+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-29T10:53:09.463+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-29T10:53:09.463+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-29T10:53:09.463+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-29T10:53:09.735+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-29T10:53:09.738+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-29T10:53:09.740+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-29T10:53:09.741+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1756444989741 with initial instances count: 2
+2025-08-29T10:53:09.755+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application QUIZ-SERVICE with eureka with status UP
+2025-08-29T10:53:09.756+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1756444989756, current=UP, previous=STARTING]
+2025-08-29T10:53:09.758+05:30  INFO 23244 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085: registering service...
+2025-08-29T10:53:09.778+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-08-29T10:53:09.779+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-08-29T10:53:09.799+05:30  INFO 23244 --- [QUIZ-SERVICE] [restartedMain] c.w.rk.quizapp.QuizsServiceApplication   : Started QuizsServiceApplication in 10.853 seconds (process running for 11.931)
+2025-08-29T10:53:09.802+05:30  INFO 23244 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085 - registration status: 204
+2025-08-29T10:58:09.473+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:03:09.489+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:08:09.491+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:13:09.493+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:18:09.499+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:23:09.515+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:28:09.516+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:33:09.527+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:38:09.530+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:43:09.544+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:48:09.547+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:53:09.562+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T11:58:09.567+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:03:09.577+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:08:09.589+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:13:09.590+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:18:09.595+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:23:09.607+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:28:09.611+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:33:09.625+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:38:09.630+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:43:09.631+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:48:09.639+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:53:09.646+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T12:58:09.651+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:03:09.656+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:08:09.663+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:13:09.678+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:18:09.685+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:23:09.691+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:28:09.695+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:33:09.698+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:38:09.706+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:43:09.712+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:48:09.720+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:53:09.729+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T13:58:09.744+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:03:09.761+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:18:21.724+05:30  WARN 23244 --- [QUIZ-SERVICE] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m12s740ms584µs700ns).
+2025-08-29T14:22:52.503+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:27:52.520+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:32:52.682+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:37:52.687+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:42:52.700+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:47:52.707+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:52:52.720+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T14:57:52.735+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:02:52.736+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:07:52.749+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:12:52.750+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:17:52.760+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:22:52.774+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:27:52.782+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:32:52.793+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:37:52.794+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:42:52.804+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:47:52.811+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:52:52.818+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T15:57:52.826+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:02:52.829+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:07:52.845+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:12:52.851+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:17:52.860+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:22:52.868+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:27:52.878+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:32:52.888+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:37:52.902+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:42:52.915+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:47:52.919+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:52:52.930+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T16:57:52.936+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T17:02:52.948+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T17:07:52.956+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T17:12:52.961+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T17:17:52.966+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T17:22:52.978+05:30  INFO 23244 --- [QUIZ-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T17:24:48.608+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-29T17:24:48.623+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2025-08-29T17:24:48.627+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1756468488627, current=DOWN, previous=UP]
+2025-08-29T17:24:48.629+05:30  INFO 23244 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085: registering service...
+2025-08-29T17:24:48.659+05:30  INFO 23244 --- [QUIZ-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_QUIZ-SERVICE/DESKTOP-GVALKHS.mshome.net:QUIZ-SERVICE:8085 - registration status: 204
+2025-08-29T17:24:48.669+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-29T17:24:48.689+05:30  INFO 23244 --- [QUIZ-SERVICE] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-29T17:24:48.730+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T17:24:48.763+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-29T17:24:48.768+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-29T17:24:48.775+05:30  INFO 23244 --- [QUIZ-SERVICE] [RMI TCP Connection(389)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+>>>>>>> b70c11e (msg)

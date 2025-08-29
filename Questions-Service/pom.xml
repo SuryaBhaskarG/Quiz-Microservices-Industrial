@@ -32,7 +32,11 @@
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
 	</properties>
 	<dependencies>
+<<<<<<< HEAD
 		<dependency>
+=======
+	<!--	<dependency>
+>>>>>>> b70c11e (msg)
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
@@ -43,7 +47,11 @@
 		<dependency>
 			<groupId>io.zipkin.reporter2</groupId>
 			<artifactId>zipkin-reporter-brave</artifactId>
+<<<<<<< HEAD
 		</dependency>
+=======
+		</dependency>-->
+>>>>>>> b70c11e (msg)
 	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
