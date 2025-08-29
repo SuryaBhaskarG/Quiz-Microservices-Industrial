@@ -1,0 +1,547 @@
+2025-08-22T10:07:26.843+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Starting CarerOutfitServerApplication using Java 21.0.7 with PID 15096 (C:\Users\asus\Desktop\UserAuth-Server\target\classes started by asus in C:\Users\asus\Desktop\UserAuth-Server)
+2025-08-22T10:07:26.852+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T10:07:26.911+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-22T10:07:26.911+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-22T10:07:27.803+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-22T10:07:27.861+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-08-22T10:07:28.571+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-22T10:07:28.583+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T10:07:28.584+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2025-08-22T10:07:28.628+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T10:07:28.628+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1716 ms
+2025-08-22T10:07:28.905+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-22T10:07:28.969+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.8.Final
+2025-08-22T10:07:29.003+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-22T10:07:29.231+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-22T10:07:29.259+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-22T10:07:29.550+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b7051ef
+2025-08-22T10:07:29.551+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-22T10:07:30.398+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-22T10:07:30.467+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T10:07:30.946+05:30 DEBUG 15096 --- [CarerOutfit-Server] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.user_role=?
+2025-08-22T10:07:31.084+05:30  WARN 15096 --- [CarerOutfit-Server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-22T10:07:31.545+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-08-22T10:07:31.651+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@41b17d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1200eccd, org.springframework.security.web.context.SecurityContextHolderFilter@54fa1619, org.springframework.security.web.header.HeaderWriterFilter@118a6eda, org.springframework.web.filter.CorsFilter@1fd2ce20, org.springframework.security.web.authentication.logout.LogoutFilter@3f025951, com.surya.rk.config.JwtAuthenticationFilter@1c5fe6d9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2cf9899a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15bf4967, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d3912a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cb330c8, org.springframework.security.web.session.SessionManagementFilter@7dac0d87, org.springframework.security.web.access.ExceptionTranslationFilter@4bcb9f64, org.springframework.security.web.access.intercept.AuthorizationFilter@46ab79fc]
+2025-08-22T10:07:32.080+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-22T10:07:32.136+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-08-22T10:07:32.148+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Started CarerOutfitServerApplication in 5.669 seconds (process running for 6.364)
+2025-08-22T10:10:58.326+05:30  INFO 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-22T10:10:58.327+05:30  INFO 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-22T10:10:58.330+05:30  INFO 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-22T10:10:58.507+05:30  WARN 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.surya.rk.controller.auth.AuthController.signupUser(com.surya.rk.dto.SignupRequest): [Field error in object 'signupRequest' on field 'password': rejected value [testUser]; codes [Pattern.signupRequest.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [signupRequest.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@66430955,^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=*!?])[A-Za-z\d@#$%^&+=*!?]{8,20}$]; default message [Password must contain at least one uppercase, one lowercase, one digit, and one special character]] ]
+2025-08-22T10:11:40.136+05:30 DEBUG 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T10:11:40.144+05:30 DEBUG 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T10:11:40.245+05:30 DEBUG 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        user
+        (email, name, password, user_role) 
+    values
+        (?, ?, ?, ?)
+2025-08-22T10:15:33.700+05:30 DEBUG 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T10:15:53.302+05:30 DEBUG 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T10:15:53.380+05:30 DEBUG 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T10:15:53.383+05:30 DEBUG 15096 --- [CarerOutfit-Server] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T10:34:31.368+05:30  INFO 15096 --- [CarerOutfit-Server] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-22T10:34:31.380+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T10:34:31.384+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-22T10:34:31.397+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-22T10:34:31.477+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Starting CarerOutfitServerApplication using Java 21.0.7 with PID 15096 (C:\Users\asus\Desktop\UserAuth-Server\target\classes started by asus in C:\Users\asus\Desktop\UserAuth-Server)
+2025-08-22T10:34:31.477+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T10:34:31.775+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-22T10:34:31.789+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2025-08-22T10:34:31.947+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-22T10:34:31.948+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T10:34:31.948+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2025-08-22T10:34:31.962+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T10:34:31.963+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 484 ms
+2025-08-22T10:34:32.231+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-22T10:34:32.234+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-22T10:34:32.238+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-22T10:34:32.239+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-08-22T10:34:32.256+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b72020e
+2025-08-22T10:34:32.256+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-08-22T10:34:32.330+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-22T10:34:32.352+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T10:34:32.556+05:30 DEBUG 15096 --- [CarerOutfit-Server] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.user_role=?
+2025-08-22T10:34:32.634+05:30  WARN 15096 --- [CarerOutfit-Server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-22T10:34:32.958+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-08-22T10:34:33.021+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40863557, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1679cc03, org.springframework.security.web.context.SecurityContextHolderFilter@23d4d258, org.springframework.security.web.header.HeaderWriterFilter@20be3f6, org.springframework.web.filter.CorsFilter@6b8eae85, org.springframework.security.web.authentication.logout.LogoutFilter@49fe7ef3, com.surya.rk.config.JwtAuthenticationFilter@6bce6222, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1b69b81c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76c6bf92, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@711ec665, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c8f8206, org.springframework.security.web.session.SessionManagementFilter@764c369, org.springframework.security.web.access.ExceptionTranslationFilter@8021b0f, org.springframework.security.web.access.intercept.AuthorizationFilter@79dc0674]
+2025-08-22T10:34:33.336+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-22T10:34:33.358+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-08-22T10:34:33.366+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Started CarerOutfitServerApplication in 1.915 seconds (process running for 1627.583)
+2025-08-22T10:34:33.374+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-22T11:01:41.986+05:30  INFO 15096 --- [CarerOutfit-Server] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-22T11:01:41.994+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T11:01:41.994+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-08-22T11:01:41.999+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-08-22T11:01:42.069+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Starting CarerOutfitServerApplication using Java 21.0.7 with PID 15096 (C:\Users\asus\Desktop\UserAuth-Server\target\classes started by asus in C:\Users\asus\Desktop\UserAuth-Server)
+2025-08-22T11:01:42.070+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T11:01:42.340+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-22T11:01:42.358+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-08-22T11:01:42.535+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-22T11:01:42.536+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T11:01:42.537+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2025-08-22T11:01:42.551+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T11:01:42.551+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 478 ms
+2025-08-22T11:01:42.729+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-22T11:01:42.731+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-22T11:01:42.734+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-22T11:01:42.735+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-08-22T11:01:42.748+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f821ecd
+2025-08-22T11:01:42.748+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-08-22T11:01:42.802+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-22T11:01:42.817+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T11:01:42.960+05:30 DEBUG 15096 --- [CarerOutfit-Server] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.user_role=?
+2025-08-22T11:01:43.021+05:30  WARN 15096 --- [CarerOutfit-Server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-22T11:01:43.295+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-08-22T11:01:43.359+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a0aefec, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6502ea48, org.springframework.security.web.context.SecurityContextHolderFilter@2c2d08cd, org.springframework.security.web.header.HeaderWriterFilter@ed35b48, org.springframework.web.filter.CorsFilter@378f1440, org.springframework.security.web.authentication.logout.LogoutFilter@7cb16058, com.surya.rk.config.JwtAuthenticationFilter@780c4dd0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@317bc396, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69869b97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f1e1953, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@591e9052, org.springframework.security.web.session.SessionManagementFilter@37d5d782, org.springframework.security.web.access.ExceptionTranslationFilter@46e11a14, org.springframework.security.web.access.intercept.AuthorizationFilter@fef1b]
+2025-08-22T11:01:43.673+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-22T11:01:43.700+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-08-22T11:01:43.710+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Started CarerOutfitServerApplication in 1.662 seconds (process running for 3257.927)
+2025-08-22T11:01:43.713+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-22T11:30:23.519+05:30  INFO 15096 --- [CarerOutfit-Server] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-22T11:30:23.526+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T11:30:23.527+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-08-22T11:30:23.531+05:30  INFO 15096 --- [CarerOutfit-Server] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-08-22T11:30:23.608+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Starting CarerOutfitServerApplication using Java 21.0.7 with PID 15096 (C:\Users\asus\Desktop\UserAuth-Server\target\classes started by asus in C:\Users\asus\Desktop\UserAuth-Server)
+2025-08-22T11:30:23.609+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T11:30:23.873+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-22T11:30:23.886+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2025-08-22T11:30:24.050+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-22T11:30:24.052+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T11:30:24.052+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2025-08-22T11:30:24.069+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T11:30:24.069+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 457 ms
+2025-08-22T11:30:24.207+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-22T11:30:24.210+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-22T11:30:24.213+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-22T11:30:24.214+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-08-22T11:30:24.227+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f5ac923
+2025-08-22T11:30:24.227+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-08-22T11:30:24.276+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-22T11:30:24.291+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T11:30:24.421+05:30 DEBUG 15096 --- [CarerOutfit-Server] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.user_role=?
+2025-08-22T11:30:24.475+05:30  WARN 15096 --- [CarerOutfit-Server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-22T11:30:24.757+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-08-22T11:30:24.819+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7929eca5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@302e647a, org.springframework.security.web.context.SecurityContextHolderFilter@468fafe0, org.springframework.security.web.header.HeaderWriterFilter@30daea7b, org.springframework.web.filter.CorsFilter@79e00e56, org.springframework.security.web.authentication.logout.LogoutFilter@3722f010, com.surya.rk.config.JwtAuthenticationFilter@10635c84, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7747c123, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8deaecb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65ad1905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a22c6e5, org.springframework.security.web.session.SessionManagementFilter@4c8838c7, org.springframework.security.web.access.ExceptionTranslationFilter@2c89ec1d, org.springframework.security.web.access.intercept.AuthorizationFilter@5e957fd6]
+2025-08-22T11:30:25.215+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-22T11:30:25.239+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-08-22T11:30:25.248+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Started CarerOutfitServerApplication in 1.664 seconds (process running for 4979.465)
+2025-08-22T11:30:25.252+05:30  INFO 15096 --- [CarerOutfit-Server] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-22T11:30:25.361+05:30  INFO 15096 --- [CarerOutfit-Server] [RMI TCP Connection(106)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-22T11:30:25.366+05:30  INFO 15096 --- [CarerOutfit-Server] [RMI TCP Connection(106)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T11:30:25.367+05:30  INFO 15096 --- [CarerOutfit-Server] [RMI TCP Connection(106)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-08-22T11:30:25.371+05:30  INFO 15096 --- [CarerOutfit-Server] [RMI TCP Connection(106)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-08-22T14:03:57.733+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Starting CarerOutfitServerApplication using Java 21.0.7 with PID 8452 (C:\Users\asus\Desktop\UserAuth-Server\target\classes started by asus in C:\Users\asus\Desktop\UserAuth-Server)
+2025-08-22T14:03:57.734+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T14:03:57.777+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:9092
+2025-08-22T14:03:57.777+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=USER-AUTHENTICATION-SERVICE, profiles=[default], label=null, version=14dadc3e11ddbe0225635e5e5bfece5c2269a127, state=
+2025-08-22T14:03:57.779+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-22T14:03:57.780+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-22T14:03:58.730+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-22T14:03:58.864+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 2 JPA repository interfaces.
+2025-08-22T14:03:59.117+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4ccbf0f7-aabf-3f60-a20b-db5d79332e50
+2025-08-22T14:03:59.637+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
+2025-08-22T14:03:59.650+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T14:03:59.650+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-22T14:03:59.693+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T14:03:59.694+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1913 ms
+2025-08-22T14:03:59.945+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-22T14:03:59.987+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-22T14:04:00.015+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-22T14:04:00.236+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-22T14:04:00.261+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-22T14:04:00.544+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c6226e
+2025-08-22T14:04:00.546+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-22T14:04:00.620+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-22T14:04:01.381+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-22T14:04:01.441+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T14:04:01.890+05:30 DEBUG 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.user_role=?
+2025-08-22T14:04:01.984+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-08-22T14:04:02.029+05:30  WARN 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-22T14:04:02.477+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2025-08-22T14:04:03.026+05:30  WARN 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-22T14:04:03.053+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-22T14:04:03.103+05:30  WARN 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-22T14:04:03.177+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-22T14:04:03.202+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-22T14:04:03.207+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T14:04:03.216+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-22T14:04:03.216+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-22T14:04:03.216+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-22T14:04:03.216+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-22T14:04:03.216+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-22T14:04:03.216+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-22T14:04:03.216+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-22T14:04:03.453+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-22T14:04:03.455+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-22T14:04:03.457+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-22T14:04:03.458+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1755851643458 with initial instances count: 4
+2025-08-22T14:04:03.463+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-AUTHENTICATION-SERVICE with eureka with status UP
+2025-08-22T14:04:03.464+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1755851643464, current=UP, previous=STARTING]
+2025-08-22T14:04:03.465+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-AUTHENTICATION-SERVICE/DESKTOP-GVALKHS.mshome.net:USER-AUTHENTICATION-SERVICE:8087: registering service...
+2025-08-22T14:04:03.484+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
+2025-08-22T14:04:03.485+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8087
+2025-08-22T14:04:03.504+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Started CarerOutfitServerApplication in 7.533 seconds (process running for 8.282)
+2025-08-22T14:04:03.506+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-AUTHENTICATION-SERVICE/DESKTOP-GVALKHS.mshome.net:USER-AUTHENTICATION-SERVICE:8087 - registration status: 204
+2025-08-22T14:05:14.726+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-22T14:05:14.727+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-22T14:05:14.730+05:30  INFO 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-22T14:05:32.673+05:30 DEBUG 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T14:05:32.679+05:30 DEBUG 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T14:05:32.775+05:30 DEBUG 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        user
+        (email, name, password, user_role) 
+    values
+        (?, ?, ?, ?)
+2025-08-22T14:05:35.785+05:30 DEBUG 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T14:05:38.379+05:30 DEBUG 8452 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T15:14:33.141+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Starting CarerOutfitServerApplication using Java 21.0.7 with PID 11352 (C:\Users\asus\Desktop\UserAuth-Server\target\classes started by asus in C:\Users\asus\Desktop\UserAuth-Server)
+2025-08-22T15:14:33.143+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T15:14:33.187+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:9092
+2025-08-22T15:14:33.188+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=USER-AUTHENTICATION-SERVICE, profiles=[default], label=null, version=14dadc3e11ddbe0225635e5e5bfece5c2269a127, state=
+2025-08-22T15:14:33.188+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-22T15:14:33.189+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-22T15:14:34.173+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-22T15:14:34.294+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 2 JPA repository interfaces.
+2025-08-22T15:14:34.523+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4ccbf0f7-aabf-3f60-a20b-db5d79332e50
+2025-08-22T15:14:34.958+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
+2025-08-22T15:14:34.970+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T15:14:34.971+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-22T15:14:35.012+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T15:14:35.013+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1823 ms
+2025-08-22T15:14:35.254+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-22T15:14:35.294+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-22T15:14:35.321+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-22T15:14:35.554+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-22T15:14:35.579+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-22T15:14:35.901+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e0b8c42
+2025-08-22T15:14:35.903+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-22T15:14:35.983+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-22T15:14:36.716+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-22T15:14:36.802+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T15:14:37.191+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.user_role=?
+2025-08-22T15:14:37.270+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-08-22T15:14:37.313+05:30  WARN 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-22T15:14:37.703+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2025-08-22T15:14:38.188+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-22T15:14:38.226+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-22T15:14:38.264+05:30  WARN 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-22T15:14:38.332+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-22T15:14:38.354+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-22T15:14:38.358+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T15:14:38.365+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-22T15:14:38.365+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-22T15:14:38.365+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-22T15:14:38.365+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-22T15:14:38.365+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-22T15:14:38.365+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-22T15:14:38.366+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-22T15:14:38.581+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-22T15:14:38.582+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-22T15:14:38.584+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-22T15:14:38.587+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1755855878586 with initial instances count: 2
+2025-08-22T15:14:38.594+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-AUTHENTICATION-SERVICE with eureka with status UP
+2025-08-22T15:14:38.595+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1755855878595, current=UP, previous=STARTING]
+2025-08-22T15:14:38.596+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-AUTHENTICATION-SERVICE/DESKTOP-GVALKHS.mshome.net:USER-AUTHENTICATION-SERVICE:8087: registering service...
+2025-08-22T15:14:38.622+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
+2025-08-22T15:14:38.623+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8087
+2025-08-22T15:14:38.644+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-AUTHENTICATION-SERVICE/DESKTOP-GVALKHS.mshome.net:USER-AUTHENTICATION-SERVICE:8087 - registration status: 204
+2025-08-22T15:14:38.646+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [restartedMain] c.surya.rk.CarerOutfitServerApplication  : Started CarerOutfitServerApplication in 7.189 seconds (process running for 8.019)
+2025-08-22T15:18:49.531+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-22T15:18:49.532+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-22T15:18:49.534+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-22T15:18:49.726+05:30  WARN 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.surya.rk.controller.auth.AuthController.signupUser(com.surya.rk.dto.SignupRequest): [Field error in object 'signupRequest' on field 'password': rejected value [ravikumar@123]; codes [Pattern.signupRequest.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [signupRequest.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@438e32c8,^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=*!?])[A-Za-z\d@#$%^&+=*!?]{8,20}$]; default message [Password must contain at least one uppercase, one lowercase, one digit, and one special character]] ]
+2025-08-22T15:19:14.449+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T15:19:14.457+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T15:19:14.579+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        user
+        (email, name, password, user_role) 
+    values
+        (?, ?, ?, ?)
+2025-08-22T15:19:38.382+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T15:20:23.620+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T15:20:23.624+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T15:20:23.698+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        user
+        (email, name, password, user_role) 
+    values
+        (?, ?, ?, ?)
+2025-08-22T15:20:31.882+05:30 DEBUG 11352 --- [USER-AUTHENTICATION-SERVICE] [http-nio-8087-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name,
+        u1_0.password,
+        u1_0.user_role 
+    from
+        user u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2025-08-22T15:24:38.384+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T15:29:38.395+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T15:34:38.406+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T15:39:38.408+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T15:44:38.421+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-22T15:46:51.282+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-22T15:46:51.283+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-AUTHENTICATION-SERVICE with eureka with status DOWN
+2025-08-22T15:46:51.283+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1755857811283, current=DOWN, previous=UP]
+2025-08-22T15:46:51.283+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-AUTHENTICATION-SERVICE/DESKTOP-GVALKHS.mshome.net:USER-AUTHENTICATION-SERVICE:8087: registering service...
+2025-08-22T15:46:51.286+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-22T15:46:51.291+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-22T15:46:51.299+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-22T15:46:51.304+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-AUTHENTICATION-SERVICE/DESKTOP-GVALKHS.mshome.net:USER-AUTHENTICATION-SERVICE:8087 - registration status: 204
+2025-08-22T15:46:51.304+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-22T15:46:51.309+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-22T15:46:51.310+05:30  INFO 11352 --- [USER-AUTHENTICATION-SERVICE] [RMI TCP Connection(43)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
