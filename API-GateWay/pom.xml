@@ -35,18 +35,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-<<<<<<< HEAD
-		
-=======
->>>>>>> b70c11e (msg)
+
+
   <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-config</artifactId>
     </dependency>
 
-<<<<<<< HEAD
-		
-=======
 		<dependency>
   <groupId>io.jsonwebtoken</groupId>
   <artifactId>jjwt-api</artifactId>
@@ -65,34 +60,28 @@
   <scope>runtime</scope>
 </dependency>
 
->>>>>>> b70c11e (msg)
-		
-		
 	<dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-gateway-server-webflux</artifactId>
 </dependency>
-<<<<<<< HEAD
-=======
+
 
 <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-security</artifactId>
     </dependency>
->>>>>>> b70c11e (msg)
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-<<<<<<< HEAD
 
-=======
 <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
     </dependency>
->>>>>>> b70c11e (msg)
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

@@ -68,8 +68,7 @@ public class QuizController {
     {
     	return quizService.getCountOdQUizs();
     }
-    
-<<<<<<< HEAD
+
     
     
     
@@ -110,6 +109,5 @@ public class QuizController {
         return quizService.calculateResult(id, responses);
     }
     */
-=======
->>>>>>> b70c11e (msg)
+
 }

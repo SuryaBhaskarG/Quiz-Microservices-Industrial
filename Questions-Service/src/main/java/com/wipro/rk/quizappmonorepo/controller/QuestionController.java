@@ -34,11 +34,8 @@ public class QuestionController {
     public Question addQuestion(@RequestBody Question question){
         return  questionService.addQuestion(question);
     }
-<<<<<<< HEAD
-	
-    // java.easy,3
-=======
->>>>>>> b70c11e (msg)
+
+
 
     @GetMapping("/generateQuestionsForQuiz")
     public List<Integer> getQuestionsForQuiz(@RequestParam String category,@RequestParam String  difficultyLevel)
@@ -59,37 +56,7 @@ public class QuestionController {
 		return questionService.calculateUserScore(responses);
     	
     }
-    
-<<<<<<< HEAD
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   /* 
-    
-    @PostMapping("/getQuestions")
-    public List<QuestionWrapper> getQuestionsFromId(@RequestBody List<Integer> questionIds){
-        return questionService.getQuestionsFromId(questionIds);
-    }
-	
-    
-    @PostMapping("/getScore")
-    public Integer getScoreforQuiz(@RequestBody List<Response> responses)
-    {
-        return questionService.getScoreforQuiz(responses);
-    }
-  
-    */
-=======
->>>>>>> b70c11e (msg)
+
+
+
 }
