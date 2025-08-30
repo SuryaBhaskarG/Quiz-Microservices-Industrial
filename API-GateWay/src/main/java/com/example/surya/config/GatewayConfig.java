@@ -1,5 +1,7 @@
 package com.example.surya.config;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
@@ -26,7 +28,8 @@ public class GatewayConfig {
                 .route("question-service-route", r -> r.path("/api/v1/question/**")
                         .filters(f -> {
                             JwtAuthenticationFilter.Config config = new JwtAuthenticationFilter.Config();
-                            config.setRequiredRole("ADMIN");
+                           config.setRequiredRole("ADMIN");
+                         //  config.setRequiredRoles(List.of("ADMIN", "DEVELOPER")); 
                             return f.filter(jwtAuthenticationFilter.apply(config));
                         })
                         .uri("lb://QUESTION-SERVICE"))
