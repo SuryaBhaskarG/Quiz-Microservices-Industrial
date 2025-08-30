@@ -122,4 +122,30 @@ public class JwtAuthenticationFilter extends AbstractGatewayFilterFactory<JwtAut
             this.requiresRole = true;
         }
     }
+    
+  /*  public static class Config {
+        private boolean requiresRole = false;
+        private List<String> requiredRoles;
+
+        public boolean isRequiresRole() {
+            return requiresRole;
+        }
+
+        public void setRequiresRole(boolean requiresRole) {
+            this.requiresRole = requiresRole;
+        }
+
+        public List<String> getRequiredRoles() {
+            return requiredRoles;
+        }
+
+        public void setRequiredRoles(List<String> requiredRoles) {
+            this.requiredRoles = requiredRoles;
+            this.requiresRole = true;
+        }
+    }*/
+
 }
+
+
+
